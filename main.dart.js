@@ -49045,8 +49045,8 @@ case 3:c=a1
 if(c==null)throw A.c(A.cv("Utente non autenticato"))
 A.ir("Firebase ID Token: "+A.n(c))
 p=5
-A.ir("BASEURL: https://rdlvlbl87l.execute-api.us-east-1.amazonaws.com/")
-m=A.fz("https://rdlvlbl87l.execute-api.us-east-1.amazonaws.com/analyze",0,null)
+A.ir("BASEURL: https://3adcsajxxfiqup7rizuwsb2zii0mmcoj.lambda-url.us-east-1.on.aws/")
+m=A.fz("https://3adcsajxxfiqup7rizuwsb2zii0mmcoj.lambda-url.us-east-1.on.aws/analyze",0,null)
 l=A.baq("POST",m)
 g=l.y
 f=A.aT2(new A.jh(A.az6(a,t.J)))
@@ -49092,7 +49092,7 @@ case 7:m=c
 if(m==null){i=A.cv("Utente non autenticato")
 throw A.c(i)}i=t.N
 s=8
-return A.x(A.aSR(A.fz("https://rdlvlbl87l.execute-api.us-east-1.amazonaws.com/result/"+a,0,null),A.ap(["Authorization","Bearer "+A.n(m)],i,i)),$async$vO)
+return A.x(A.aSR(A.fz("https://3adcsajxxfiqup7rizuwsb2zii0mmcoj.lambda-url.us-east-1.on.aws/result/"+a,0,null),A.ap(["Authorization","Bearer "+A.n(m)],i,i)),$async$vO)
 case 8:l=c
 i=l
 A.ir("Risposta grezza da getResult: "+A.abK(A.abu(i.e).c.a.h(0,"charset")).dv(i.w))
@@ -49353,7 +49353,7 @@ var $async$ym=A.y(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:g=$.aWn
 f=g.a
 if(f===0&&g.b===0){s=1
-break}m=A.fz("http://api.weatherapi.com/v1/current.json?key=e20daa4997a34382b84215505250603&q="+A.n(f)+","+A.n(g.b)+"&aqi=no",0,null)
+break}m=A.fz("https://api.weatherapi.com/v1/current.json?key=e20daa4997a34382b84215505250603&q="+A.n(f)+","+A.n(g.b)+"&aqi=no",0,null)
 p=4
 s=7
 return A.x(A.aSR(m,null),$async$ym)

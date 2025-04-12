@@ -3,5 +3,7 @@
     "title_1": "Skin lesion types",
     "descr_1": "The application is capable of recognizing the following types of skin lesions.",
     "title_2": "Find the nearest dermatolog",
-    "hello_person": "Hello {name}"
+    "hello_person": "Hello {name}",
+    "_comment2": "------------------------- BASIC INFO PAGE -------------------------",
+    "info_1": "We ask for some personal information to provide you with more accurate guidance. Your data will be handled securely and will not be shared with third parties."
 }
